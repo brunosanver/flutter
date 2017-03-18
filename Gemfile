@@ -1,6 +1,9 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
-
+# We will be using the Devise gem for authentication and user accounts.
+gem 'devise'
+# for Twitter UI components inc. navbar
+gem 'bootstrap-sass', '~> 3.3.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
 # Use sqlite3 as the database for Active Record
@@ -13,6 +16,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+
+gem 'coffee-script-source', '1.8.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
